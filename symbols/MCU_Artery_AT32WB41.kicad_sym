@@ -33,7 +33,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.arterychip.com/download/DS/DS_AT32WB415_V2.00_EN.pdf"
+		(property "Datasheet" "https://www.arterychip.com/download/DS/DS_AT32WB415_V2.02_EN.pdf"
 			(at 0 -50.8 0)
 			(effects
 				(font

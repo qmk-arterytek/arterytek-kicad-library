@@ -26,8 +26,12 @@ From this point on you will have "qmk-arterytek KiCad repository" in your drop-d
 * AT32F402 - Artery AT32F402 MCU series
 * AT32F403 - Artery AT32F403 MCU series
 * AT32F403A - Artery AT32F403A MCU series
+* AT32F403E - Artery AT32F403E MCU series
 * AT32F405 - Artery AT32F405 MCU series
+* AT32F406 - Artery AT32F406 MCU series
 * AT32F407 - Artery AT32F407 MCU series
+* AT32F407E - Artery AT32F407E MCU series
+* AT32F408 - Artery AT32F408 MCU series
 
 ### MCU_Artery_AT32F41
 * AT32F413 - Artery AT32F413 MCU series
