@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "LQFP-144_20x20mm_P0.5mm")
+	(descr "LQFP-144, 20.0x20.0mm, 0.5mm Pitch")
 	(property "Reference" "REF**"
 		(at 0 -12.35 0)
 		(layer "F.SilkS")
@@ -75,16 +75,6 @@
 		(uuid "44609588-7ea2-4daf-8425-7c486c364b18")
 	)
 	(fp_line
-		(start -10.11 -9.16)
-		(end -11.4 -9.16)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b6a2f7eb-30af-4996-9b33-453bb187062b")
-	)
-	(fp_line
 		(start -10.11 10.11)
 		(end -10.11 9.16)
 		(stroke
@@ -153,6 +143,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "4884f3f8-1356-44f7-82c6-b5da42559870")
+	)
+	(fp_poly
+		(pts
+			(xy -10.7 -9.16) (xy -11.04 -9.63) (xy -10.36 -9.63) (xy -10.7 -9.16)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "857f576b-13cc-46a3-b3ce-46bf8a7ed881")
 	)
 	(fp_line
 		(start -11.65 -9.15)

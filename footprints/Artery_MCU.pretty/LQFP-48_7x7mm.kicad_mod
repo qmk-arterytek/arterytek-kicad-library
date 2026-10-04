@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "LQFP-48_7x7mm_P0.5mm")
+	(descr "LQFP-48, 7.0x7.0mm, 0.5mm Pitch")
 	(property "Reference" "REF**"
 		(at 0 -5.85 0)
 		(layer "F.SilkS")
@@ -75,16 +75,6 @@
 		(uuid "5a8e3ced-c834-4e81-a962-a7a6add1777b")
 	)
 	(fp_line
-		(start -3.61 -3.16)
-		(end -4.9 -3.16)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "2d9da89b-3659-4f16-aa2e-129f56865840")
-	)
-	(fp_line
 		(start -3.61 3.61)
 		(end -3.61 3.16)
 		(stroke
@@ -153,6 +143,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "9b6e4631-2b89-478c-b58a-ea6e714df976")
+	)
+	(fp_poly
+		(pts
+			(xy -4.2 -3.16) (xy -4.54 -3.63) (xy -3.86 -3.63) (xy -4.2 -3.16)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "37893a0a-3df5-420a-a4d8-cfa8ff68c3d7")
 	)
 	(fp_line
 		(start -5.15 -3.15)
@@ -461,7 +463,7 @@
 		(size 1.475 0.3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "0e743cbd-e91d-4f82-b706-34df24c9694f")
+		(uuid "003d4ebe-cbd1-4222-ba35-9ca0faf302d3")
 	)
 	(pad "2" smd roundrect
 		(at -4.1625 -2.25)

@@ -39,19 +39,24 @@ From this point on you will have "qmk-arterytek KiCad repository" in your drop-d
 
 ### MCU_Artery_AT32F42
 * AT32F421 - Artery AT32F421 MCU series
+* AT32F4212 - Artery AT32F4212 MCU series
 * AT32F423 - Artery AT32F423 MCU series
 * AT32F425 - Artery AT32F425 MCU series
-* AT32F4212C8T7 - Artery AT32F4212 MCU
 
 ### MCU_Artery_AT32F43
 * AT32F435 - Artery AT32F435 MCU series
 * AT32F437 - Artery AT32F437 MCU series
 
+### MCU_Artery_AT32F45
+* AT32F455 - Artery AT32F455 MCU series
+* AT32F456 - Artery AT32F456 MCU series
+* AT32F457 - Artery AT32F457 MCU series
+
 ### MCU_Artery_AT32L02
 * AT32L021 - Artery AT32L021 MCU series
 
 ### MCU_Artery_AT32WB41
-* AT32WB415CCU7-7 - Artery AT32WB415 MCU
+* AT32WB415 - Artery AT32WB415 MCU series
 
 ## Footprint libs
 ### Artery_MCU
@@ -69,6 +74,7 @@ From this point on you will have "qmk-arterytek KiCad repository" in your drop-d
 * QFN-48_6x6mm_ThermalVias - QFN-48 (6x6mm) packages
 * QFN-48_7x7mm_ThermalVias - QFN-48 (7x7mm) packages
 * TSSOP-20_4.4x6.5mm - TSSOP-20 (4.4x6.5mm) packages
+* UFBGA-100_7x7mm_Layout12x12 - UFBGA-100 (7x7mm) packages
 
 ## 3D Models
 All 3D models are created by KiCad

@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "QFN-36-1EP_6x6mm_P0.5mm_EP3.7x3.7mm_ThermalVias")
+	(descr "QFN-36 with Exposed Pad, 6.0x6.0mm, 0.5mm Pitch, 3.7x3.7mm Exposed Pad, Thermal Vias")
 	(property "Reference" "REF**"
 		(at 0 -4.3 0)
 		(layer "F.SilkS")
@@ -65,6 +65,16 @@
 	)
 	(attr smd)
 	(fp_line
+		(start -3.11 -2.385)
+		(end -3.11 -2.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2eb01880-f02e-4d12-9f20-a2fd6088823c")
+	)
+	(fp_line
 		(start -3.11 3.11)
 		(end -3.11 2.385)
 		(stroke
@@ -76,13 +86,13 @@
 	)
 	(fp_line
 		(start -2.385 -3.11)
-		(end -3.11 -3.11)
+		(end -2.81 -3.11)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "67810d9b-77ce-446a-bf44-f3828844c257")
+		(uuid "a69037ed-d245-46e3-a6b1-b2ba57c2038d")
 	)
 	(fp_line
 		(start -2.385 3.11)
@@ -133,6 +143,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "cea41978-ec65-4b44-88f8-7c27bda00860")
+	)
+	(fp_poly
+		(pts
+			(xy -3.11 -3.11) (xy -3.35 -3.44) (xy -2.87 -3.44) (xy -3.11 -3.11)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "44035488-5bea-460d-a1cd-7d27e818ee05")
 	)
 	(fp_line
 		(start -3.6 -3.6)
@@ -509,7 +531,7 @@
 		(size 0.825 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "1ec6472d-1e5e-4ae4-86a4-f73d67c80e65")
+		(uuid "c0459873-d8be-4fd1-a547-81731bbd728a")
 	)
 	(pad "2" smd roundrect
 		(at -2.9375 -1.5)

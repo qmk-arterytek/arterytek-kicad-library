@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "QFN-28-1EP_4x4mm_P0.4mm_EP2.4x2.4mm_ThermalVias")
+	(descr "QFN-28 with Exposed Pad, 4.0x4.0mm, 0.4mm Pitch, 2.4x2.4mm Exposed Pad, Thermal Vias")
 	(property "Reference" "REF**"
 		(at 0 -3.3 0)
 		(layer "F.SilkS")
@@ -65,6 +65,16 @@
 	)
 	(attr smd)
 	(fp_line
+		(start -2.11 -1.585)
+		(end -2.11 -1.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00fe0d48-3d49-4118-bccc-f0acb444f203")
+	)
+	(fp_line
 		(start -2.11 2.11)
 		(end -2.11 1.585)
 		(stroke
@@ -76,13 +86,13 @@
 	)
 	(fp_line
 		(start -1.585 -2.11)
-		(end -2.11 -2.11)
+		(end -1.81 -2.11)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a621584c-dbc0-4093-924a-46115b25deea")
+		(uuid "5aefab16-5e64-4987-9f67-65cd8cc99f91")
 	)
 	(fp_line
 		(start -1.585 2.11)
@@ -133,6 +143,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "6fcaa640-a6ed-4af6-b552-fb2263f4d928")
+	)
+	(fp_poly
+		(pts
+			(xy -2.11 -2.11) (xy -2.35 -2.44) (xy -1.87 -2.44) (xy -2.11 -2.11)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "b7be9c27-5d79-4635-b405-1a27513b2a00")
 	)
 	(fp_line
 		(start -2.6 -2.6)

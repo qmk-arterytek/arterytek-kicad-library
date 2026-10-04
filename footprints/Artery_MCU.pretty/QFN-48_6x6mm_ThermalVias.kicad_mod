@@ -3,9 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm_ThermalVias")
+	(descr "QFN-48 with Exposed Pad, 6.0x6.0mm, 0.4mm Pitch, 4.2x4.2mm Exposed Pad, Thermal Vias")
 	(property "Reference" "REF**"
-		(at 0 -4.32 0)
+		(at 0 -4.33 0)
 		(layer "F.SilkS")
 		(uuid "5a72b48b-d210-4687-8e65-6575b27cfe8b")
 		(effects
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "QFN-48-1EP_6x6mm_P0.4mm_EP4.2x4.2mm_ThermalVias"
-		(at 0 4.32 0)
+		(at 0 4.33 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "d0bc82ae-01e8-4dbc-b51c-1e9ed57ac1b3")
@@ -65,6 +65,16 @@
 	)
 	(attr smd)
 	(fp_line
+		(start -3.11 -2.56)
+		(end -3.11 -2.87)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e333b383-afcb-40aa-a86a-46adf610417d")
+	)
+	(fp_line
 		(start -3.11 3.11)
 		(end -3.11 2.56)
 		(stroke
@@ -76,13 +86,13 @@
 	)
 	(fp_line
 		(start -2.56 -3.11)
-		(end -3.11 -3.11)
+		(end -2.81 -3.11)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4fe28e08-000e-426b-aae9-ec11d1d39163")
+		(uuid "9ac76084-6018-4870-b527-755ec03e2f41")
 	)
 	(fp_line
 		(start -2.56 3.11)
@@ -134,9 +144,21 @@
 		(layer "F.SilkS")
 		(uuid "e74b3468-e804-4d5c-93f6-736a3744923e")
 	)
+	(fp_poly
+		(pts
+			(xy -3.11 -3.11) (xy -3.35 -3.44) (xy -2.87 -3.44) (xy -3.11 -3.11)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "98c4a104-def7-478e-80fd-e789ede182e6")
+	)
 	(fp_line
-		(start -3.62 -3.62)
-		(end -3.62 3.62)
+		(start -3.63 -3.63)
+		(end -3.63 3.63)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -145,8 +167,8 @@
 		(uuid "d88c72f7-a69b-43e2-87e7-3451c9388bd5")
 	)
 	(fp_line
-		(start -3.62 3.62)
-		(end 3.62 3.62)
+		(start -3.63 3.63)
+		(end 3.63 3.63)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -155,8 +177,8 @@
 		(uuid "189511ce-18b2-4d84-8556-e9b2e7604235")
 	)
 	(fp_line
-		(start 3.62 -3.62)
-		(end -3.62 -3.62)
+		(start 3.63 -3.63)
+		(end -3.63 -3.63)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -165,8 +187,8 @@
 		(uuid "1c70744a-af6e-4830-9dc0-bf8ccd7d1f0f")
 	)
 	(fp_line
-		(start 3.62 3.62)
-		(end 3.62 -3.62)
+		(start 3.63 3.63)
+		(end 3.63 -3.63)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -953,7 +975,7 @@
 		(size 0.2 0.85)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(uuid "3e84780c-0211-4dc7-bffc-ba639a6fe546")
+		(uuid "6424b4bc-57ef-4786-a58b-8f256fc798e4")
 	)
 	(pad "49" thru_hole circle
 		(at -1.575 -1.575)

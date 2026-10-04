@@ -3,9 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "QFN-48-1EP_7x7mm_P0.5mm_EP5.45x5.45mm_ThermalVias")
+	(descr "QFN-48 with Exposed Pad, 7.0x7.0mm, 0.5mm Pitch, 5.45x5.45mm Exposed Pad, Thermal Vias")
 	(property "Reference" "REF**"
-		(at 0 -4.82 0)
+		(at 0 -4.83 0)
 		(layer "F.SilkS")
 		(uuid "7b6df0d6-628d-4e26-9e5e-94fa7dc9b9c0")
 		(effects
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "QFN-48-1EP_7x7mm_P0.5mm_EP5.45x5.45mm_ThermalVias"
-		(at 0 4.82 0)
+		(at 0 4.83 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "3812a67c-064a-45aa-94c5-2c70b49c6010")
@@ -65,6 +65,16 @@
 	)
 	(attr smd)
 	(fp_line
+		(start -3.61 -3.135)
+		(end -3.61 -3.37)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94a712b9-ccba-4bc1-9ee2-20552773dc98")
+	)
+	(fp_line
 		(start -3.61 3.61)
 		(end -3.61 3.135)
 		(stroke
@@ -76,13 +86,13 @@
 	)
 	(fp_line
 		(start -3.135 -3.61)
-		(end -3.61 -3.61)
+		(end -3.31 -3.61)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0ab68637-8eaa-4d20-8e23-1fdd4675d4b9")
+		(uuid "21f6206f-6337-4577-9d2e-34610e9edb14")
 	)
 	(fp_line
 		(start -3.135 3.61)
@@ -134,9 +144,21 @@
 		(layer "F.SilkS")
 		(uuid "80a44be4-886a-4467-93db-ba68ba682446")
 	)
+	(fp_poly
+		(pts
+			(xy -3.61 -3.61) (xy -3.85 -3.94) (xy -3.37 -3.94) (xy -3.61 -3.61)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "c1fe7790-0533-4ac1-b0c7-e58ed73677d2")
+	)
 	(fp_line
-		(start -4.12 -4.12)
-		(end -4.12 4.12)
+		(start -4.13 -4.13)
+		(end -4.13 4.13)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -145,8 +167,8 @@
 		(uuid "f12d06fc-07d2-40c8-8b06-6f25621a4af3")
 	)
 	(fp_line
-		(start -4.12 4.12)
-		(end 4.12 4.12)
+		(start -4.13 4.13)
+		(end 4.13 4.13)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -155,8 +177,8 @@
 		(uuid "f97ced33-2150-49de-90a7-bec87ee334b1")
 	)
 	(fp_line
-		(start 4.12 -4.12)
-		(end -4.12 -4.12)
+		(start 4.13 -4.13)
+		(end -4.13 -4.13)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -165,8 +187,8 @@
 		(uuid "e4404215-5928-4fa1-89b7-e26a8f21de1b")
 	)
 	(fp_line
-		(start 4.12 4.12)
-		(end 4.12 -4.12)
+		(start 4.13 4.13)
+		(end 4.13 -4.13)
 		(stroke
 			(width 0.05)
 			(type solid)

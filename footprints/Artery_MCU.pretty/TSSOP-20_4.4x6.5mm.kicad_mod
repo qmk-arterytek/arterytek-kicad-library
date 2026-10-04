@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "TSSOP-20_4.4x6.5mm_P0.65mm")
+	(descr "TSSOP-20, 4.4x6.5mm, 0.65mm Pitch")
 	(property "Reference" "REF**"
 		(at 0 -4.2 0)
 		(layer "F.SilkS")
@@ -66,13 +66,13 @@
 	(attr smd)
 	(fp_line
 		(start 0 -3.385)
-		(end -3.6 -3.385)
+		(end -2.2 -3.385)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "faa26a03-288c-45c4-9361-e09fe730b60e")
+		(uuid "20875b10-e7c5-441f-bb93-a007ec357b00")
 	)
 	(fp_line
 		(start 0 -3.385)
@@ -82,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1f3f788b-8367-400a-ab72-3b410cf1af9d")
+		(uuid "effe2a32-a4bb-4f4d-893e-c6b6d64f70e8")
 	)
 	(fp_line
 		(start 0 3.385)
@@ -103,6 +103,18 @@
 		)
 		(layer "F.SilkS")
 		(uuid "3c3c23fd-00fa-4f20-b6aa-8f9cc3a9d8f3")
+	)
+	(fp_poly
+		(pts
+			(xy -3.86 -2.925) (xy -4.19 -3.165) (xy -4.19 -2.685) (xy -3.86 -2.925)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "b04497e8-1883-4227-afee-7141a0503c63")
 	)
 	(fp_line
 		(start -3.85 -3.5)

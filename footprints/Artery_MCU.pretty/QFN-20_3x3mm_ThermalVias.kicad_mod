@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "QFN-20-1EP_3x3mm_P0.4mm_EP1.65x1.65mm_ThermalVias")
+	(descr "QFN-20 with Exposed Pad, 3.0x3.0mm, 0.4mm Pitch, 1.65x1.65mm Exposed Pad, Thermal Vias")
 	(property "Reference" "REF**"
 		(at 0 -2.83 0)
 		(layer "F.SilkS")
